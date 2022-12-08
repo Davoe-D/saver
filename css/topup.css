@@ -129,6 +129,94 @@ ul.navbar li a:hover:not(.active){
     text-align: left;
 }
 
+
+
+header{
+    width: 95%;
+    height: 11vh;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.carticon .fas {
+    color: white;
+    padding-left: 1130%;
+}
+
+
+
+.cartlogo {
+	text-decoration: none;
+	color: white;
+}
+
+.hero header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 0 30px;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    margin-left: 40px;
+    font-size: 15px;
+    font-weight: 600;
+    border-bottom: 2px solid transparent;
+    transition: .4s;
+}
+nav ul li:not(:last-child) a:hover,
+nav ul li:not(:last-child) a:focus {
+    border-bottom: 2px solid white;
+}
+
+nav ul li.active a {
+    border-bottom: 1px solid white;
+}
+nav ul li.btn a {
+    background: transparent;
+    color: white;
+    border: 1px solid #f5dca8;
+    padding: 9px 20px;
+    border-radius: 30px;
+    line-height: 1.4;
+    font-size: 14px;
+    font-weight: 500;
+    margin-left: 150px;
+}
+nav ul li.btn:hover a {
+    border: 1px solid white;
+    color: black;
+    background: white;
+    transition: .4s;
+}
+nav ul li.btn-1 a {
+    background: transparent;
+    color: white;
+    border: 1px solid #f5dca8;
+    padding: 9px 20px;
+    border-radius: 30px;
+    line-height: 1.4;
+    font-size: 14px;
+    font-weight: 500;
+    margin-left: px;
+}
+nav ul li.btn:hover a {
+    border: 1px solid white;
+    color: black;
+    background: white;
+    transition: .4s;
+}
+
+
 /* Saver HUGE BANNER */
 
 .rakuto{
@@ -161,195 +249,6 @@ ul.navbar li a:hover:not(.active){
     bottom: 0px;
     left: -150px;
 }
-
-
-/* SAVER BANNER STOPPED*/
-
-/* VOUUCHER DECORATIONS*/
-
-.logo-section{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 30px 0;
-}
-.logo-section .fas{
-    font-size: 6rem;
-    color: #FEC53A;
-}
-.logo-section h1{
-    width: 250px;
-    font-size: 2rem;
-    color: #FEC53A;
-    margin-left: 10px;
-}
-/* Section one starts here */
-
-/* .section-1{
-    width: 100%;
-    height: 100vh;
-    background: linear-gradient(rgba(0, 0, 0, 0.767),rgba(0, 0, 0, 0.712)),
-    url();
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-
-}
-.section-1-wrapper{
-    width: 70%;
-    margin: auto;
-}
-.section-1 h1{
-    width: 500px;
-    color: #FEC53A;
-    font-size: 1.5rem;
-    position: relative;
-    font-weight: 400;
-}
-.section-1-img{
-    display: flex;
-}
-.section-1-img .img{
-    width: 100px;
-    height: 130px;
-    background: url(../images/free\ fire.jpg);
-    background-size: cover;
-    background-position: center;
-    margin-right: 10px;
-    border-radius: 10px;
-}
-.section-1-img .img-2{
-    background: url(../images/pubg.jpg);
-    background-size: cover;
-    background-position: center;
-}
-.section-1-img  .img-3{
-    background: url(../images/mobile\ legends.jpg);
-    background-size: cover;
-    background-position: center;
-}
-.section-1-img  .img-4{
-    background: url(../images/fortnite.jpg);
-    background-size: cover;
-    background-position: center;
-}
-.section-1-img  .img-5{
-    background: url(../images/apex.jpg);
-    background-size: cover;
-    background-position: center;
-}
-.section-1-img  .img-6{
-    background: url(../images/minecraft.jpg);
-    background-size: cover;
-    background-position: center;
-}
-.section-1-img  .img-7{
-    background: url(../images/pubg\ new\ state.jpg);
-    background-size: cover;
-    background-position: center;
-}
-.section-1-img  .img-8{
-    background: url(../images/madden\ nfl.jpeg);
-    background-size: cover;
-    background-position: center;
-}
-
-.section-1-img a{
-    text-decoration: none;
-    color: #fff;
-}
-
-.img:hover{
-    transform: translateY(-10px);
-}
-
-
-
-/* Section 3 starts here */
-
-
-/*
-.game-categories{
-    width: 70%;
-    margin: 50px auto;
-    position: relative;
-}
-.game-categories h1{
-    font-size: 1.5rem;
-    margin-bottom: 20px;
-    color: #FEC53A;
-}
-.game-wrapper{
-    display: flex;
-}
-.gw{
-    width: 120px;
-    height: 120px;
-    background: url(../images/nintendo.webp);
-    background-size: cover;
-    background-position: center;
-    margin: 20px 15px 0 0;
-    border-radius: 10px;
-}
-.gw:hover{
-    transform: translateY(-10px);
-}
-.left{
-    position: relative;
-    right: -140px;
-}
-
-.gw-1{
-    background: url(../images/apple\ gift\ card.png);
-    background-size: cover;
-    background-position: center;
-}
-.gw-2{
-    background: url(../images/Razer-gold.webp);
-    background-size: cover;
-    background-position: center;
-}
-.gw-3{
-    background: url(../images/amazon.jpg);
-    background-size: cover;
-    background-position: center;
-}
-.gw-4{
-    background: url(../images/ebay.webp);
-    background-size: cover;
-    background-position: center;
-}
-.gw-5{
-    background: url(../images/xbox\ gift\ card.webp);
-    background-size: cover;
-    background-position: center;
-}
-.gw-6{
-    background: url(../images/playstation.webp);
-    background-size: cover;
-    background-position: center;
-}
-.gw-7{
-    background: url(../images/steam\ gift\ card.webp);
-    background-size: cover;
-    background-position: center;
-}
-.gw-8{
-    background: url(../images/gamestop.webp);
-    background-size: cover;
-    background-position: center;
-}
-.gw-9{
-    background: url(../images/obucks\ gift\ card.webp);
-    background-size: cover;
-    background-position: center;
-} 
-*/
-
-
-
-
-/* Testing new CSS for SLider =======*/
 
 /* PRODUCTS */
 .product {

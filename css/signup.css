@@ -1,3 +1,164 @@
+/*Header Navigation Bar STARTED!!*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&family=Roboto&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    background: #1a0327;
+    font-family: 'Poppins', sans-serif;
+    height: 100vh;
+}
+.container{
+    height: 100%;
+    width: 100%;
+    min-height: 100vh;
+    background: radial-gradient(#f9d349, 20%, #d57e12);
+    position: relative;
+}
+header{
+    width: 95%;
+    height: 11vh;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.carticon .fas {
+    color: white;
+    padding-left: 1130%;
+}
+
+
+.logo{
+    width: 300px;
+    height: 10vh;
+    background: #550381;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    clip-path: polygon(0 0, 100% 0, 64% 100%, 0% 100%);
+    padding: 10px;
+    line-height: 1.3rem;
+}
+.logo p{
+    width: 130px;
+    margin-left: 10px;
+    font-size: 20px;
+}
+.logo .fas{
+    font-size: 50px;
+}
+ul.navbar{
+    display: flex;
+    list-style: none;
+}
+ul.navbar li{
+    width: 120px;
+}
+ul.navbar li a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+ul.navbar li a.active{
+    color: #ffffff;
+}
+ul.navbar li a:hover:not(.active){
+    color: #FEC53A;
+}
+/* #btn{
+    width: 250px;
+    height: 10vh;
+    background: #FEC53A;
+    color: #000;
+    outline: none;
+    border: none;
+    clip-path: polygon(35% 0, 100% 0, 100% 100%, 0% 100%);
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: right;
+    padding-right: 40px;
+} */
+#btn .fas{
+    margin-right: 10px;
+}
+
+.cartlogo {
+	text-decoration: none;
+	color: white;
+}
+
+.hero header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 0 30px;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    margin-left: 40px;
+    font-size: 15px;
+    font-weight: 600;
+    border-bottom: 2px solid transparent;
+    transition: .4s;
+}
+nav ul li:not(:last-child) a:hover,
+nav ul li:not(:last-child) a:focus {
+    border-bottom: 2px solid white;
+}
+
+nav ul li.active a {
+    border-bottom: 1px solid white;
+}
+nav ul li.btn a {
+    background: transparent;
+    color: white;
+    border: 1px solid #f5dca8;
+    padding: 9px 20px;
+    border-radius: 30px;
+    line-height: 1.4;
+    font-size: 14px;
+    font-weight: 500;
+    margin-left: 150px;
+}
+nav ul li.btn:hover a {
+    border: 1px solid white;
+    color: black;
+    background: white;
+    transition: .4s;
+}
+nav ul li.btn-1 a {
+    background: transparent;
+    color: white;
+    border: 1px solid #f5dca8;
+    padding: 9px 20px;
+    border-radius: 30px;
+    line-height: 1.4;
+    font-size: 14px;
+    font-weight: 500;
+    margin-left: px;
+}
+nav ul li.btn:hover a {
+    border: 1px solid white;
+    color: black;
+    background: white;
+    transition: .4s;
+}
+
+
+
 .hero {
     height: 100%;
     width: 100%;
@@ -57,7 +218,7 @@
     border-radius: 50%;
 }
 .input-group {
-    top: 180px;
+    top: 140px;
     position: absolute;
     width: 280px;
     transition: .5s;
@@ -85,14 +246,28 @@
     border-radius: 30px;
 }
 
+
 .checkbox {
     margin: 30px 10px 30px 0;
 }
-span {
+
+#span{
     color: #777;
     font-size: 12px;
     bottom: 63px;
     position: absolute;
+}
+
+
+span {
+    color: #777;
+    font-size: 12px;
+    bottom: 87px;
+    position: absolute;
+}
+
+.forgotten-pass {
+    width: 85%;
 }
 
 #login {
